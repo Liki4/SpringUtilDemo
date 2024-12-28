@@ -30,7 +30,7 @@ public class APIGatewayController {
             String methodName = (String) map.get("methodName");
             Map<String, Object> params = (Map<String, Object>) map.get("params");
 
-            if (StrUtil.containsAnyIgnoreCase("flag", beanName)) {
+            if (StrUtil.containsAnyIgnoreCase(beanName, "flag")) {
                 return new BaseResponse(403, "flagTestService offline", null);
             }
 
