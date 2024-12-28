@@ -1,4 +1,4 @@
-package icu.Liki4.SpringUtilDemo.base;
+package icu.Liki4.signin.base;
 
 public class BaseResponse {
 

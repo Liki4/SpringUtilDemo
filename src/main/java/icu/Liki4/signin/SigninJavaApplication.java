@@ -1,13 +1,13 @@
-package icu.Liki4.SpringUtilDemo;
+package icu.Liki4.signin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringUtilDemoApplication {
+public class SigninJavaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringUtilDemoApplication.class, args);
+        SpringApplication.run(SigninJavaApplication.class, args);
     }
 
 }
